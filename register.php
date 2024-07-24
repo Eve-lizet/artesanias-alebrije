@@ -54,7 +54,7 @@ if ($user_type == 'administrador' && $total_admins >= 3) {
     // Ejecutar la consulta y verificar si fue exitosa
     if ($conn->query($sql) === TRUE) {
         // Redirigir al usuario después de un registro exitoso
-        echo "<script>alert('registro exitoso'); window.location.href = 'login.html';</script>";
+        echo "<script>alert('registro exitoso'); window.location.href = 'index.html';</script>";
    
         exit();
     } else {
