@@ -30,9 +30,9 @@ if ($result->num_rows > 0) {
 
         // Redirigir según el tipo de usuario
         if ($user_type == 'administrador') {
-            header("Location: ARTESANIAS ALEBRIJES.php");
+            header("Location: ARTESANIAS ALEBRIJES.html");
         } else {
-            header("Location: catalogo.php");
+            header("Location: catalogo.html");
         }
         exit();
     } else {

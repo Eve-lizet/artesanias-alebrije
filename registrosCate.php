@@ -17,7 +17,7 @@ switch ($action) {
             }
             $stmt->bind_param("s", $nombre);
             if ($stmt->execute()) {
-                echo "<script>alert('Categoría insertada exitosamente'); location.href='categoria.php';</script>";
+                echo "<script>alert('Categoría insertada exitosamente'); location.href='categoria.html';</script>";
             } else {
                 echo "Error insertando la categoría: " . $stmt->error;
             }

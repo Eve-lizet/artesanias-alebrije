@@ -142,7 +142,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'editar') {
         <textarea id="comentarios" name="comentarios"><?php echo htmlspecialchars($pedido['comentarios']); ?></textarea><br>
         <button type="submit">Actualizar</button>
     </form>
-    <a href="pedidos.php">Volver a pedidos</a>
+    <a href="pedidos.html">Volver a pedidos</a>
 </body>
 </html>
 <?php
