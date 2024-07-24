@@ -36,14 +36,14 @@ if ($result->num_rows > 0) {
         }
         exit();
     } else {
-        echo "<script>alert('contraseña incorrecta'); window.location.href = 'login.html';</script>";
+        echo "<script>alert('contraseña incorrecta'); window.location.href = 'index.html';</script>";
         // La contraseña es incorrecta
        
         exit();
     }
 } else {
     // El usuario no existe
-    echo "<script>alert('Usuario no encontrado'); window.location.href = 'login.html';</script>";
+    echo "<script>alert('Usuario no encontrado'); window.location.href = 'index.html';</script>";
     exit();
 }
 
